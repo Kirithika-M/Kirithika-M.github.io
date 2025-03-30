@@ -79,3 +79,31 @@ nav li:first-child {
 #name {
     font-size: 10px;
 }
+
+/* For home section */
+.home {
+    margin-left: 120px;
+    display: flex;
+    margin-top: 100px;
+}
+
+span {
+    color: rgba(172, 30, 237, 0.916); 
+    width: 17ch;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.icon a i {
+    margin-left: 120px;
+    margin-top: 25px;
+    padding-bottom: 0.5px;
+    color: #000000;
+    font-size: 40px;
+}
+
+.button {
+    margin-left: 120px;
+    margin-top: 25px;
+    padding-bottom: 0.5px;
+}
