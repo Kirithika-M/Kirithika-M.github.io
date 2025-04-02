@@ -124,6 +124,7 @@ span {
     padding-top: 20px;
     border-radius: 20px;
     padding-left: 20px;
+    backdrop-filter: blur(100px);
 }
 
 .row_2 {
@@ -135,6 +136,7 @@ span {
     border-radius: 20px;
     padding-left: 20px;
     margin-left: 400px;
+    backdrop-filter: blur(100px);
 }
 
 #skills {
@@ -151,13 +153,32 @@ span {
     border-radius: 20px;
     padding-left: 20px;
     padding-top: 10px;
+    backdrop-filter: blur(100px);
 }
 
 .row_4 {
-    width: 600px;
-    height: 500px;
+    height: 200px;
     margin-top: -170px;
     padding-left: 600px;
     border: 3px solid rgba(0, 0, 0, 0.1);
     border-radius: 20px;
+    margin-left: 200px;
+    position: relative;
+    left: 200px;
+    width: 20px;
+    backdrop-filter: blur(100px); 
+}
+
+.col_4 {
+    width: 200px;
+    height: 200px;
+    padding: 0;
+    margin-left: -580px;
+    padding-top: 10px;
+}
+
+#projects {
+    margin-left: 120px;
+    margin-top: 145px;
+    padding-bottom: 2.5px;
 }
