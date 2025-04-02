@@ -157,28 +157,41 @@ span {
 }
 
 .row_4 {
-    height: 200px;
+    height: 175px;
     margin-top: -170px;
-    padding-left: 600px;
     border: 3px solid rgba(0, 0, 0, 0.1);
     border-radius: 20px;
     margin-left: 200px;
     position: relative;
     left: 200px;
-    width: 20px;
+    width: 250px;
     backdrop-filter: blur(100px); 
 }
 
 .col_4 {
-    width: 200px;
-    height: 200px;
+    width: 800px;
+    height: 175px;
     padding: 0;
     margin-left: -580px;
     padding-top: 10px;
+    padding-left: 600px;
 }
 
 #projects {
     margin-left: 120px;
     margin-top: 145px;
     padding-bottom: 2.5px;
+}
+
+.row_5 {
+    width: 1010px;
+    height: 280px;
+    padding: 10px;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    backdrop-filter: blur(100px);
+}
+
+.col_5 {
+    padding-left: 10px;
 }
