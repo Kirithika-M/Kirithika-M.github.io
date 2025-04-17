@@ -78,6 +78,26 @@ nav li:first-child {
     }
 }
 
+#home-arrow {
+    position: fixed;
+    top: 50%;
+    right: 30px;
+    font-size: 30px;
+    background-color: transparent;
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 999;
+    transition: color 0.3s;
+    margin-top: 220px;
+}
+
+#home-arrow:hover {
+    color: rgba(172, 30, 237, 0.916);
+}
+
 #name {
     font-size: 10px;
 }
