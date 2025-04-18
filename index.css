@@ -8,7 +8,7 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
+.background {
     min-height: 100vh;
     background-image: url("https://Kirithika-M.github.io/background_2.jpg");
     background-size: cover;
@@ -140,7 +140,7 @@ span {
     width: 320px;
     height: 380px;
     margin-top: 20px;
-    border: 2px solid rgba(0, 0, 0, 0.1);
+    border: .005px solid rgba(0, 0, 0, 0.1);
     padding-top: 20px;
     border-radius: 20px;
     padding-left: 20px;
@@ -151,7 +151,7 @@ span {
     width: 320px;
     height: 290px;
     margin-top: -380px;
-    border: 2px solid rgba(0, 0, 0, 0.1);
+    border: .005px solid rgba(0, 0, 0, 0.1);
     padding-top: 20px;
     border-radius: 20px;
     padding-left: 20px;
@@ -164,12 +164,13 @@ span {
     margin-top: 205px;
     padding-bottom: 2.5px;
     position: relative;
+    margin-bottom: 350px;
 }
 
 .row_3 {
     width: 300px;
-    height: 170px;
-    border: 3px solid rgba(0, 0, 0, 0.1);
+    height: 300px;
+    border: .005px solid rgba(0, 0, 0, 0.1);
     border-radius: 20px;
     padding-left: 20px;
     padding-top: 10px;
@@ -178,8 +179,8 @@ span {
 
 .row_4 {
     height: 175px;
-    margin-top: -170px;
-    border: 3px solid rgba(0, 0, 0, 0.1);
+    margin-top: -300px;
+    border: .005px solid rgba(0, 0, 0, 0.1);
     border-radius: 20px;
     margin-left: 200px;
     position: relative;
@@ -199,19 +200,68 @@ span {
 
 #projects {
     margin-left: 120px;
-    margin-top: 145px;
+    margin-top: -15px;
     padding-bottom: 2.5px;
+    margin-bottom: 20px;
 }
 
 .row_5 {
     width: 1010px;
-    height: 280px;
+    height: 300px;
     padding: 10px;
-    border: 3px solid rgba(0, 0, 0, 0.1);
+    border: .005px solid rgba(0, 0, 0, 0.1);
     border-radius: 30px;
     backdrop-filter: blur(100px);
 }
 
 .col_5 {
     padding-left: 10px;
+}
+
+/* About me page */
+.content {
+    width: 1000px;
+    height: 400px;
+    background-color: transparent;
+    backdrop-filter: blur(100px);
+    border: .005px solid rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    margin-left: 200px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.content-col {
+    font-size: 20px;
+}
+
+.return-back {
+    position: fixed;
+    top: 50%;
+    right: 10px;
+    font-size: 30px;
+    background-color: transparent;
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 999;
+    transition: color 0.3s;
+    margin-top: 220px;
+    bottom: -10px;
+    text-decoration: none;
+}
+
+.return-back:hover {
+    color: rgba(172, 30, 237, 0.916);
+}
+
+#return-back-link {
+    text-decoration: none;
+    color: black;
+}
+
+#return-back-link:hover {
+    color: rgba(172, 30, 237, 0.916);
 }
